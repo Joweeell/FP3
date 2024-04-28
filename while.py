@@ -40,7 +40,7 @@ while mantener:
   print("2.- Programa de saludo")
   print("3.- Programa dormir")
   print("4.- Salir")
-  op=int(input("Seleccione una opcion"))
+  op=int(input("Seleccione un a opcion"))
   match op:
     case 1:
       verifpassw()
