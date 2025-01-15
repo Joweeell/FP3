@@ -21,6 +21,7 @@ def resv_economica(fila, asiento, nombre, rut):
          print(f"Estimado/a el asiento que desea esta ocupado")
     else:
         print("porfavor ingrese una fila del 0 al 6")
+        
 def resv_turista(fila, asiento, nombre, rut):
     if fila>=0 and fila<=3:
         if not turista[fila][asiento]: 
@@ -30,6 +31,7 @@ def resv_turista(fila, asiento, nombre, rut):
          print(f"Estimado/a el asiento que desea esta ocupado")
     else:
         print("porfavor ingrese una fila del 0 al 6")
+        
 def resv_ejecutiva(fila, asiento, nombre, rut):
     if fila>=0 and fila<=3:
         if not ejecutiva[fila][asiento]: 
